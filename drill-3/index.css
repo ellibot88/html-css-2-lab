@@ -37,13 +37,29 @@ p {
   background-color: rgb(43, 255, 0);
 }
 footer {
-  position: sticky;
+  position: fixed;
   bottom: 0px;
+  right: 0px;
   padding: 5px;
   display: flex;
   justify-content: flex-end;
 }
-img {
-  height: 55px;
-  width: 55px;
+#question {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  font-size: 50;
+  align-items: center;
+  text-align: center;
+  padding: 3px;
+  /* position: absolute; */
+}
+h2 {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+
+  /* background-color: black; */
 }
