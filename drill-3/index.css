@@ -1,0 +1,49 @@
+header {
+  background-color: rgb(212, 212, 212);
+  width: 100vw;
+  height: 100px;
+  position: relative;
+}
+
+#blue-rectangle {
+  height: 65px;
+  width: 65px;
+  background-color: rgb(72, 151, 255);
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+p {
+  padding: 15px;
+}
+.blue {
+  width: 100vw;
+  height: 200px;
+  background-color: rgb(115, 115, 255);
+}
+.teal {
+  width: 100vw;
+  height: 200px;
+  background-color: rgb(75, 204, 255);
+}
+.yellow {
+  width: 100vw;
+  height: 200px;
+  background-color: rgb(200, 255, 0);
+}
+.green {
+  width: 100vw;
+  height: 200px;
+  background-color: rgb(43, 255, 0);
+}
+footer {
+  position: sticky;
+  bottom: 0px;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+img {
+  height: 55px;
+  width: 55px;
+}
